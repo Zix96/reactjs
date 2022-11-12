@@ -1,20 +1,24 @@
 import logo from "./logo.svg";
 import "./App.css";
 import FunctionalComponent from "./components/FunctionalComponent/FunctionalComponent";
+import React from "react";
 
-const objetFunction = {
-  name: "Maxi",
-  lastName: "Berenguer",
-};
 function App() {
+  const [stock, setStock] = React.useState(20);
   return (
     <div className="App">
       <header className="App-header">
-        <FunctionalComponent
-          name={objetFunction.name}
-          lastname={objetFunction.lastName}
-        />
+        <FunctionalComponent nombre={"Maxi"} stock={stock} />
         <img src={logo} className="App-logo" alt="logo" />
+        <button
+          className="button"
+          onClick={() => {
+            setStock(stock + 1);
+            console.log(stock);
+          }}
+        >
+          Agregar al carrito
+        </button>
       </header>
     </div>
   );

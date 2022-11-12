@@ -1,10 +1,8 @@
-const FunctionalComponent = ({ nombre, apellido }) => {
+const FunctionalComponent = ({ nombre, stock }) => {
   return (
     <div>
-      <h2>Hola soy un componente funcional</h2>
-      <h1>
-        Mi nombre es {nombre} {apellido}
-      </h1>
+      <h2>Agrega tus semas {stock} </h2>
+      <h1>Mi nombre es {nombre}</h1>
     </div>
   );
 };
