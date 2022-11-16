@@ -8,12 +8,12 @@ const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
+        <CartWidget />
         <Navbar.Brand href="#home">JavaSeeds</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">Inicio</Nav.Link>
           <Nav.Link href="#features">Destacadas</Nav.Link>
           <Nav.Link href="#pricing">Contacto</Nav.Link>
-          <CartWidget />
         </Nav>
       </Container>
     </Navbar>
