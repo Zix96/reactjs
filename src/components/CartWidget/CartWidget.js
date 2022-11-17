@@ -1,5 +1,5 @@
-import logo from "../../assets/cartImage.png";
-import chala from "../../assets/chala.png";
+import logo from "../../images/cartImage.webp";
+import chala from "../../images/chala.png";
 import "./CartWidget.css";
 import "./Chala.css";
 const CartWidget = () => {
