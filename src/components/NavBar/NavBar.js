@@ -13,13 +13,13 @@ const NavBar = () => {
           <CartWidget />
         </Link>
         <NavLink to="/" activeClassName="active">
-          <Navbar.Brand href="#home">JavaSeeds</Navbar.Brand>
+          <Navbar.Brand href="home">JavaSeeds</Navbar.Brand>
         </NavLink>
 
         <Nav className="me-auto">
-          <Nav.Link href="#home">Inicio</Nav.Link>
-          <Nav.Link href="#features">Destacadas</Nav.Link>
-          <Nav.Link href="#pricing">Contacto</Nav.Link>
+          <Nav.Link href="home">Inicio</Nav.Link>
+          <Nav.Link href="destacadas">Destacadas</Nav.Link>
+          <Nav.Link href="contacto">Contacto</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
