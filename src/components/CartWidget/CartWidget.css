@@ -1,0 +1,7 @@
+.cart-widget {
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  margin-left: 50%;
+  margin-bottom: 100%;
+}
